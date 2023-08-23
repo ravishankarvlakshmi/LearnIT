@@ -1,0 +1,23 @@
+AAKASH APPLICANT ID : Application ID AA00C0RA2R
+
+1. Spring Boot | REST API Request Validation & Exception Handling Realtime Example | JavaTechie
+2. Spring Boot - Spring Security + JWT Complete Tutorial With Example | javatechie
+
+
+<groupId>springBoot.jwtsecurity</groupId>
+	<artifactId>spring-security-jwt-example</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>spring-security-jwt-example</name>
+
+
+Implementing JWT (JSON Web Tokens) with Spring Security in Springboot App
+
+Thread Dump
+
+As it turns out, there are many ways to capture a thread dump using JDK utilities. Let's take a moment to reflect on each and outline their pros and cons:
+
+jstack: provides the quickest and easiest way to capture a thread dump; however, better alternatives are available starting with Java 8
+jmc: enhanced JDK profiling and diagnostics tool. It minimizes the performance overhead that's usually an issue with profiling tools.
+jvisualvm: lightweight and open-source profiling tool with an excellent GUI console
+jcmd: extremely powerful and recommended for Java 8 and later. A single tool that serves many purposes: capturing thread dump (jstack), heap dump (jmap), system properties, and command-line arguments (jinfo)
+jconsole: lets us inspect thread stack trace information
