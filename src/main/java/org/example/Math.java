@@ -6,7 +6,7 @@ public class Math {
     }
     public int multiply(int a, int b) {
 
-        system.out.println("imtestig123");
+        System.out.println(" i was testing for all examples 123");
         return a * b;
     }
 }
