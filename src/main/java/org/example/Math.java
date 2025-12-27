@@ -5,6 +5,8 @@ public class Math {
         return a + b;
     }
     public int multiply(int a, int b) {
+
+        system.out.println("imtestig123");
         return a * b;
     }
 }
